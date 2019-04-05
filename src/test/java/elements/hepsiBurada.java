@@ -1,6 +1,7 @@
 package elements;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -22,6 +23,7 @@ public class hepsiBurada {
     // class:keyword
     private List<WebElement> products;//class:product-detail
     private WebElement productDetailFavButton;//linktext:Favori Listeme Ekle
+    private String clickedProductName;
 
     public void hepsiBurada() {
         //load page elements
@@ -88,6 +90,11 @@ public class hepsiBurada {
 
         productDetailFavButton = driver.findElement(By.linkText("Favori Listeme Ekle"));
         productDetailFavButton.click();
+
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Alışverişe devam et"))).click();
+        clickedProductName = driver.findElement(By.id("product-name")).getText();
+
         goFavPage();
     }
     private void goFavPage(){
@@ -96,7 +103,19 @@ public class hepsiBurada {
         action.moveToElement(homeLoginButtonHover).perform();
 
         WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("login"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Favori Listem"))).click();
+
+        //Silinecek olan elemanın isimini tutuyorum
+        //Bu isim ile favoriler sayfasında ürünü buluyorum
+        //bulduğum ürünün id'si solundaki checkboxun idsine benzer o yüzden replace yapıyorum
+        //Örneğin:
+        //*[@id="ctl00_ContentPlaceHolder1_rptShoppingList_ctl01_hplProductName"]: ürünün link idsi
+        //*[@id="ctl00_ContentPlaceHolder1_rptShoppingList_ctl01_chkSelect"]: checbox id'si
+        String id = driver.findElement(By.linkText(clickedProductName)).getAttribute("id");
+        id = id.replace("hplProductName","chkSelect");
+        driver.findElement(By.id(id)).click();
+
+        driver.findElement(By.linkText("Sil")).click();
     }
     public void logOut(){
 

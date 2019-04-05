@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1e79a766-00e0-4f2b-ab15-95f8727e146a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="hepsiBurada.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="98" column="48" lean-forward="true" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
+            <state relative-caret-position="184">
+              <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +98,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -396,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="98" column="48" lean-forward="true" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
+        <state relative-caret-position="184">
+          <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
