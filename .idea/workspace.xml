@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e79a766-00e0-4f2b-ab15-95f8727e146a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/driver_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,12 +28,10 @@
       <file leaf-file-name="hepsiBurada.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+            <state relative-caret-position="146">
+              <caret line="98" column="48" lean-forward="true" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1861#1862#0" expanded="true" />
-                <element signature="e#1890#1891#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +52,8 @@
       <file leaf-file-name="testCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="170">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +86,8 @@
         <option value="$PROJECT_DIR$/src/test/java/driver/java/elements/hepsiBuradaLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/hepsiBuradaLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/hepsiBuradaHome.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/driver_.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java" />
       </list>
     </option>
@@ -257,24 +252,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testCase - 2019.04.05 at 16h 14m 02s.xml">
-      <configuration name="testCase" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 16h 14m 41s.xml">
-      <configuration name="testCase" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 16h 16m 08s.xml">
-      <configuration name="testCase" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 16h 17m 13s.xml">
-      <configuration name="testCase" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 16h 19m 51s.xml">
-      <configuration name="testCase" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 16h 20m 11s.xml">
-      <configuration name="testCase" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="testCase - 2019.04.05 at 16h 23m 30s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
@@ -285,6 +262,24 @@
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="testCase - 2019.04.05 at 16h 38m 36s.xml">
+      <configuration name="testCase" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testCase - 2019.04.05 at 17h 29m 58s.xml">
+      <configuration name="testCase" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testCase - 2019.04.05 at 17h 35m 40s.xml">
+      <configuration name="testCase" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testCase - 2019.04.05 at 17h 36m 11s.xml">
+      <configuration name="testCase" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testCase - 2019.04.05 at 17h 37m 42s.xml">
+      <configuration name="testCase" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testCase - 2019.04.05 at 17h 40m 42s.xml">
+      <configuration name="testCase" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testCase - 2019.04.05 at 17h 41m 14s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
@@ -391,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -401,12 +396,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        <state relative-caret-position="146">
+          <caret line="98" column="48" lean-forward="true" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
           </folding>
         </state>
       </provider>
