@@ -1,14 +1,12 @@
 package elements;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class hepsiBurada {
     private driver_ d;
@@ -20,7 +18,6 @@ public class hepsiBurada {
     private WebElement searchBox;//id:productSearch
     private WebElement searchPageButton;//class:page-2
     private WebElement searchPageTwoProduct;//class:page-2
-    // class:keyword
     private List<WebElement> products;//class:product-detail
     private WebElement productDetailFavButton;//linktext:Favori Listeme Ekle
     private String clickedProductName;
@@ -46,7 +43,7 @@ public class hepsiBurada {
     private void goLoginPage() throws InterruptedException {
         homeLoginButtonHover = driver.findElement(By.id("myAccount"));
         Actions action = new Actions(driver);
-        action.moveToElement(homeLoginButtonHover).perform();
+        action.moveToElement(homeLoginButtonHover).build().perform();
 
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(By.id("login"))).click();
@@ -61,7 +58,7 @@ public class hepsiBurada {
         password.sendKeys("password123!");
         loginButton.click();
     }
-    public void seacrh(String searchText){
+    public void seacrh(String searchText) throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(By.className("footer-end-wrapper")));
 
@@ -70,14 +67,14 @@ public class hepsiBurada {
         System.out.println("Giriş işlemi başarılı");
 
         searchBox = driver.findElement(By.id("productSearch"));
+        searchBox.clear();
         searchBox.sendKeys(searchText);
         searchBox.submit();
         goSearchPageTwoAndClickProduct();
     }
-    private void goSearchPageTwoAndClickProduct(){
+    private void goSearchPageTwoAndClickProduct() throws InterruptedException {
         //iphone kelimesi arama kontrolü
-        String str="Türkiye'nin En Büyük Online Alışveriş Sitesi Hepsiburada.com";
-        Assert.assertEquals("\"iphone\"",driver.findElement(By.className("keyword")).getText());
+        Assert.assertEquals("iphone",driver.findElement(By.className("keyword")).getText().replace("\"",""));
         System.out.println("Arama işlemi doğru");
 
         searchPageButton = driver.findElement(By.className("page-2"));
@@ -97,13 +94,18 @@ public class hepsiBurada {
 
         goFavPage();
     }
-    private void goFavPage(){
-        homeLoginButtonHover = driver.findElement(By.id("myAccount"));
+    private void goFavPage() throws InterruptedException {
+        homeLoginButtonHover = driver.findElement(By.linkText("Hesabım"));
         Actions action = new Actions(driver);
-        action.moveToElement(homeLoginButtonHover).perform();
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("window.scrollBy(0,-(window.scrollY))", "");
+        action.moveToElement(homeLoginButtonHover).build().perform();
 
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Favori Listem"))).click();
+
+        Assert.assertEquals("Favori Listem - Hepsiburada.com", driver.getTitle());
+        System.out.println(driver.getTitle()+ " sayfası açıldı.");
 
         //Silinecek olan elemanın isimini tutuyorum
         //Bu isim ile favoriler sayfasında ürünü buluyorum
@@ -116,9 +118,21 @@ public class hepsiBurada {
         driver.findElement(By.id(id)).click();
 
         driver.findElement(By.linkText("Sil")).click();
+        driver.switchTo().alert().accept();
+        Thread.sleep(2000);
+        Assert.assertEquals(0, driver.findElements(By.linkText(clickedProductName)).size());
+        System.out.println(clickedProductName +" isimli ürün favorilerden çıkarıldı.");
+        logOut();
     }
-    public void logOut(){
+    private void logOut(){
+        homeLoginButtonHover = driver.findElement(By.id("myAccount"));
 
+        Actions action = new Actions(driver);
+        action.moveToElement(homeLoginButtonHover).build().perform();
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Çıkış Yap"))).click();;
+    }
+    public void dquit(){
         driver.quit();
     }
 }

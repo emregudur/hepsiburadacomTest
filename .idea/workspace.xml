@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e79a766-00e0-4f2b-ab15-95f8727e146a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/hepsiBurada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/hepsiBurada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCase.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -27,10 +31,12 @@
       <file leaf-file-name="hepsiBurada.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
+            <state relative-caret-position="201">
+              <caret line="107" column="63" selection-start-line="107" selection-start-column="63" selection-end-line="107" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5516#5517#0" expanded="true" />
+                <element signature="e#5545#5546#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,8 +45,8 @@
       <file leaf-file-name="driver_.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/elements/driver_.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+            <state relative-caret-position="187">
+              <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +57,8 @@
       <file leaf-file-name="testCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,6 +74,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>key</find>
+      <find>iph</find>
+      <find>ip</find>
+      <find>per</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/test/java/driver/java/elements/hepsiBuradaLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/hepsiBuradaLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/hepsiBuradaHome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/a.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/driver_.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java" />
@@ -98,7 +113,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -110,9 +125,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,6 +138,12 @@
               <item name="hepsiburadacom" type="b2602c69:ProjectViewProjectNode" />
               <item name="hepsiburadacom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hepsiburadacom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hepsiburadacom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hepsiburadacom" type="b2602c69:ProjectViewProjectNode" />
@@ -150,6 +170,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,73 +272,112 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testCase - 2019.04.05 at 16h 23m 30s.xml">
+    <history-entry file="testCase - 2019.04.06 at 16h 19m 04s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 16h 32m 29s.xml">
+    <history-entry file="testCase - 2019.04.06 at 16h 19m 26s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 16h 34m 37s.xml">
+    <history-entry file="testCase - 2019.04.06 at 16h 20m 10s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 16h 38m 36s.xml">
+    <history-entry file="testCase - 2019.04.06 at 16h 22m 04s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 17h 29m 58s.xml">
+    <history-entry file="testCase - 2019.04.06 at 16h 22m 27s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 17h 35m 40s.xml">
+    <history-entry file="testCase - 2019.04.06 at 16h 22m 50s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 17h 36m 11s.xml">
+    <history-entry file="testCase - 2019.04.06 at 16h 23m 16s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 17h 37m 42s.xml">
+    <history-entry file="testCase - 2019.04.06 at 16h 23m 37s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 17h 40m 42s.xml">
+    <history-entry file="testCase - 2019.04.06 at 16h 24m 01s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="testCase - 2019.04.05 at 17h 41m 14s.xml">
+    <history-entry file="testCase - 2019.04.06 at 16h 25m 48s.xml">
       <configuration name="testCase" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" weight="0.3292683" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32857144" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.26507938" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24962406" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.3292683" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24304539" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3292683" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/elements/driver_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5516#5517#0" expanded="true" />
+            <element signature="e#5545#5546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/model/impl/GetterSetterPropertySeed.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -325,16 +385,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/driver/driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/driver/driver.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -348,35 +399,25 @@
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/driver/java/driver/driver_.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/driver/java/elements/hepsiBuradaHome.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/driver/java/elements/hepsiBuradaLogin.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/elements/hepsiBuradaLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/driver/java/driver/driver_.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/driver/java/elements/hepsiBuradaHome.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/driver/java/elements/hepsiBuradaLogin.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/elements/hepsiBuradaLogin.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/a.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/elements/driver_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+        <state relative-caret-position="187">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -385,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -395,10 +436,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/elements/hepsiBurada.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
+        <state relative-caret-position="201">
+          <caret line="107" column="63" selection-start-line="107" selection-start-column="63" selection-end-line="107" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5516#5517#0" expanded="true" />
+            <element signature="e#5545#5546#0" expanded="true" />
           </folding>
         </state>
       </provider>
